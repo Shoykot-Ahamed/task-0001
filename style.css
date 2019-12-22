@@ -1,0 +1,86 @@
+.section-bg{
+    background-image: url(img/bg.jpg);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 60%;
+    background-size: cover;
+}
+.section-bg::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+    background: #31d6be;
+    opacity: .9;
+}
+.section-padding, .container{
+    position: relative;
+}
+.contact-form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 13px;
+    color: #333;
+}
+.rt h2{
+    color: #dfdddd;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    margin-top: 395px;
+    font-size: 56px;
+    opacity: .8;
+}
+input:focus, textarea:focus, button:focus{
+    outline: none;
+}
+.contact-form input:focus{
+    border: 1px solid #333;
+}
+.contact-form input[type=submit]{
+    width: auto;
+    padding: 15px 30px;
+    color: #31d6be;
+    font-weight: 700;
+    background: #fff;
+}
+.Appoinment-text{
+    padding-left: 65px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Appoinment-text h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 38px;
+}
+.Appoinment-text ul li{
+    list-style-type: none;
+    padding: 15px 0px;
+    font-size: 16px;
+}
+.Appoinment-text ul li i{
+    color: #31d6be;
+    padding-right: 10px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    background: #31d6be;
+    padding: 15px 30px;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    padding-left: 38px;
+}
